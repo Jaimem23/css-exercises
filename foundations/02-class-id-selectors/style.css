@@ -1,0 +1,21 @@
+.title {
+   background-color:#fdb8c3;
+   font-size: 18px;
+   font-family: "Verdana","Dejavu-Sans",sans-serif;
+   
+}
+
+.cooler{
+    font-size: 24px;
+}
+
+#preview{
+    color: #2222e7; 
+    font-size: 36px;
+}
+
+#view{
+    background-color: #25fd118a;
+    font-size: 24px;
+    font-weight: bold;
+}
