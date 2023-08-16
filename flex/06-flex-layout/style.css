@@ -14,7 +14,8 @@ img {
 button {
   font-family: Roboto, sans-serif;
   border: none;
-  border-radius: 8px;
+  border-radius: 16px;
+  padding: 8px 16px;
   background: #eee;
 }
 
@@ -25,3 +26,66 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+
+/* Making the links more appealing and fixing ul */
+
+a {
+  text-decoration: none;
+  color: rgb(78, 76, 76);
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+}
+
+/* header block */
+
+.header{
+  display: flex;
+  padding: 0px 16px;
+  height: 7.5vh;
+  align-items: center;
+}
+
+.left-links, .right-links{
+  gap: 16px;
+}
+
+.header .left-links{
+  margin-right: auto;
+  
+}
+
+/* content block */
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  height: 85vh;
+}
+
+
+
+/* footer block */
+
+.footer{
+
+  display: flex;
+  background-color: #80808034;
+  height: 7.5vh;
+  padding: 0px 16px;
+  align-items: center;
+}
+
+.footer .left-links{
+  margin-right: auto;
+}
+

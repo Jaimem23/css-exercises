@@ -8,13 +8,16 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 16px;
+  display: flex;
+  flex: 0 1 0;
 }
 
-.footer {
-  height: 72px;
-  background: #eee;
-  color: darkmagenta;
-}
+
+
+
 
 .sidebar {
   width: 300px;
@@ -26,4 +29,89 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+/* middle part */
+
+.middle{
+  flex: 1;
+  display: flex;
+  
+}
+
+/* sidebar */
+
+.sidebar{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  min-width: 300px;
+  padding: 16px;
+  
+
+}
+
+/* content */
+
+.content{
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 40px;
+}
+
+.card{
+  min-width: 300px;
+  margin: 16px;
+  max-width: 300px;
+  padding: 10px;
+  border-color: antiquewhite;
+}
+
+/* the ad zone */
+
+.the-ad-zone{
+  display: flex;
+  
+}
+
+/* The decoration and lists */
+
+a{
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  padding: 8px;
+}
+
+ul{
+  
+  display: flex;
+  flex: 1 0 0;
+  list-style-type:  none;
+  flex-direction: column; 
+  gap: 16px;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+/* footer */
+
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 auto;
 }
